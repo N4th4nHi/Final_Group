@@ -1,0 +1,135 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: navy;
+   color: aliceblue;
+   text-align: center;
+}
+
+.col {
+   align-self: center;
+}
+
+img{
+    max-width:400px;
+    width:100%;
+    max-height:400px;
+    height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 60rem){
+    .title{
+        font-size: 3.7rem;
+    }
+}
+
+h1{
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 2.0rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 1.75rem; 
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: monospace;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+h5{
+    font-weight: 300;
+    font-size: 1.25rem; 
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: monospace;
+}
+
+
+.NH{
+    font-size: 1.5rem;    
+}
+
+ .button {
+                    border: none;
+                    color: black;
+                    padding: 16px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    transition-duration: 0.4s;
+                    cursor: pointer;
+                }
+
+                .button1 {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid #4CAF50;
+                }
+
+                    .button1:hover {
+                        background-color: #4CAF50;
+                        color: white;
+                    }
+
+                .button2 {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid #008CBA;
+                }
+
+                    .button2:hover {
+                        background-color: #008CBA;
+                        color: black;
+                    }
